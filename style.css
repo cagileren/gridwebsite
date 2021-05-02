@@ -85,9 +85,11 @@ a:active {
   font-weight: 600;
 }
 .product-grid {
+  display: table;
   width: 100%;
 }
 .grid-product {
+  display: inline-table;
   width: 25%;
   padding: 1%;
 }
