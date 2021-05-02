@@ -1,0 +1,174 @@
+
+html,
+body {
+  height: 100%;
+}
+body {
+  padding-top: 25vh;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #2e2e2e;
+  background-color: #f2f2f2;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: Helvetica, sans-serif;
+}
+a:link,
+a:visited {
+  color: #b8d87f;
+}
+a:hover,
+a:active {
+  color: #b8d87f;
+  text-decoration: none;
+}
+.wrapper {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+}
+
+.inner-wrap {
+  width: 50%;
+  margin: 0 auto;
+}
+.site-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 120px;
+  z-index: 9999;
+  background-color: #2b2e35;
+}
+.site-header .inner-wrap {
+  display: table;
+  height: 100%;
+}
+.site-header h1,
+.site-header ul {
+  display: table-cell;
+  vertical-align: middle;
+}
+.site-header h1 {
+  margin: 0;
+  font-weight: 600;
+  color: #fff;
+}
+
+.content-wrap {
+  position: relative;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.filter-grid {
+  position: fixed;
+  top: 13vh;
+  left: 0;
+  z-index: 8999;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #434f5b;
+}
+.filter-grid .filter-cell {
+  float: left;
+  width: 25%;
+  padding: 7px;
+}
+.filter-grid select {
+  font-weight: 600;
+}
+.product-grid {
+  width: 100%;
+}
+.grid-product {
+  width: 25%;
+  padding: 1%;
+}
+
+.title-wrapper{
+  position: relative;
+  height:8vh;
+  width: 100%;
+  padding: 1%;
+  background-color: #dedede66;
+}
+
+.title {
+padding: 5%;
+text-align: center;
+}
+
+.product-image {
+  opacity: 0.8;
+  top:0;
+  object-fit: contain;
+  position: relative;
+  width: 100%;
+  height: 20vh;
+  background-size: cover;
+} 
+
+.product-image:hover {
+  opacity: 1;
+} 
+
+h4 {
+  font-size: calc(10px + 0.5vw);
+}
+.description {
+  height: 15vh;
+}
+.description h4 {
+  width: 100%;
+  font-size: calc(2px + 0.5vw);
+}
+
+.price-button-wrapper{
+  position: relative;
+  height: 8vh;
+  background-color: #aab5c0;
+}
+.price {
+text-align: center;
+}
+.add-button {
+  display: inline-block;
+}
+.add {
+  margin-top:-3px;
+  height: 4.5vh;
+  color: #fff;
+  background-color: #434f5b;
+}
+ .add:hover {
+  color: #b8d87f;
+  background-color: #2b2e35;
+}
+input#quantity{
+  height: 4.5vh;
+}
+.quantity {
+  padding-left: 25%;
+  margin: 0.5%;
+  display: inline-block;
+}
+
+.tshirt {
+  background-image: url(https://vakko.akinoncdn.com/products/2019/07/05/402859/7baedeea-a38c-4480-aae7-5098a4fa79bd_size1000x1500_quality100.jpg);
+}
+.watch {
+  background-image: url(https://imgur.com/DWMEYH3.jpg);
+}
+.typewriter {
+  background-image: url(https://imgur.com/DVT28Z6.jpg);
+}
+.canoe {
+  background-image: url(https://imgur.com/SC1jz9L.jpg);
+}
